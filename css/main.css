@@ -162,15 +162,16 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 a {
-  color: #63a3be;
+  border-bottom: 1px solid #cccccc;
+  color: #000000;
   font-weight: 600;
   text-decoration: none;
-  -webkit-transition: color 0.25s ease-out;
-  -o-transition: color 0.25s ease-out;
-  transition: color 0.25s ease-out;
+  -webkit-transition: border-bottom-color 0.25s ease-out;
+  -o-transition: border-bottom-color 0.25s ease-out;
+  transition: border-bottom-color 0.25s ease-out;
 }
 a:hover {
-  color: #4288a6;
+  border-bottom-color: #000000;
 }
 p {
   margin-bottom: 2rem;
